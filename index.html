@@ -7,23 +7,11 @@
         <title>Tic Tac Toe</title>
     </head>
     <body>
-        <div class="calculator-container">
-            <div class="input-container">
-                <input
-                    type="number"
-                    id="num-one"
-                    class="input-number"
-                    placeholder="Enter first number"
-                />
-                <input
-                    type="number"
-                    id="num-two"
-                    class="input-number"
-                    placeholder="Enter second number"
-                />
-            </div>
-            <button type="button" id="sum" class="sum-button">Sum</button>
-            <div id="output" class="output"></div>
+        <div class="container-game">
+
+            <div class="board-container" id="board"></div>
+            <p id="info" class="info">X's turn</p>
+            <button type="button" id="btn-reset" class="reset-button">Try again</button>
         </div>
         <script type="module" src="./src/init.js"></script>
     </body>
